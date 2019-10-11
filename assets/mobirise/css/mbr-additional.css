@@ -7,11 +7,11 @@ body {
 }
 .display-1 {
   font-family: 'EkkamaiNew-Regular';
-  font-size: 4.4rem;
+  font-size: 3.6rem;
   font-display: swap;
 }
 .display-1 > .mbr-iconfont {
-  font-size: 7.04rem;
+  font-size: 5.76rem;
 }
 .display-2 {
   font-family: 'Rubik', sans-serif;
@@ -52,9 +52,9 @@ body {
 /* 0.65 - min scale variable, may vary */
 @media (max-width: 768px) {
   .display-1 {
-    font-size: 3.52rem;
-    font-size: calc( 2.19rem + (4.4 - 2.19) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (2.19rem + (4.4 - 2.19) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 2.88rem;
+    font-size: calc( 1.91rem + (3.6 - 1.91) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.4 * (1.91rem + (3.6 - 1.91) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-2 {
     font-size: 0.96rem;
@@ -876,10 +876,60 @@ section.lazy-placeholder:after {
   font-style: italic;
 }
 .cid-rEAby5GUlD H1 {
-  text-align: left;
+  text-align: center;
   color: #b63434;
 }
 .cid-rEAby5GUlD .mbr-text,
 .cid-rEAby5GUlD .mbr-section-btn {
   color: #ffffff;
+  text-align: center;
+}
+.cid-rECtkRiG77 {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background-image: url("../../../assets/images/background4.jpg");
+}
+.cid-rECtkRiG77 .media-container-row {
+  flex-direction: row-reverse;
+  -webkit-flex-direction: row-reverse;
+}
+@media (min-width: 992px) {
+  .cid-rECtkRiG77 .mbr-figure {
+    padding-right: 4rem;
+    padding-right: 0;
+    padding-left: 4rem;
+  }
+}
+@media (max-width: 991px) {
+  .cid-rECtkRiG77 .mbr-figure {
+    padding-bottom: 3rem;
+  }
+}
+@media (max-width: 767px) {
+  .cid-rECtkRiG77 .mbr-text {
+    text-align: center;
+  }
+}
+.cid-rECtkRiG77 H1 {
+  color: #b63434;
+}
+.cid-rECSDvjpgN {
+  background-image: url("../../../assets/images/mbr-1920x1002.jpg");
+}
+.cid-rECSDvjpgN h1 {
+  color: #616161;
+}
+.cid-rECSDvjpgN h2,
+.cid-rECSDvjpgN h3,
+.cid-rECSDvjpgN p {
+  color: #767676;
+}
+.cid-rECSDvjpgN .mbr-section-subtitle {
+  font-style: italic;
+}
+.cid-rECSDvjpgN H1 {
+  text-align: center;
+}
+.cid-rEDpDzuetK {
+  background-image: url("../../../assets/images/4dqpjutzluwmjzzpfil1gsveqnq6fxyitvtcn1uzlxmd-950x534.jpg");
 }
